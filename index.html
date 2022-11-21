@@ -46,7 +46,7 @@
     <div class="exJVS p-3 mb-2 bg-dark text-white">
       <div class="container"></div>
       <h4 style="text-align: center">BÀI TẬP NGÀY 18.11</h4>
-      <div class="input">
+      <div class="input m-2">
         <input id="numInput" type="number" placeholder="Nhập số:" />
         <button
           class="button m-3 btn btn-primary"
@@ -59,7 +59,7 @@
       </div>
       <div id="numForm">
         <div class="numLabel m-3" id="numLabel">Mảng đã thêm:</div>
-        <p class="m-2 mt-3" id="numValue"></p>
+        <p class="m-3" id="numValue"></p>
       </div>
       <br />
       <h5 class="mx-3">BÀI 1. TÍNH TỔNG CÁC SỐ CHẴN TRONG MẢNG</h5>
@@ -117,6 +117,24 @@
       </button>
       <div id="result5" class="info"></div>
 
+      <h5 class="mx-3">BÀI 6. ĐỔI VỊ TRÍ TRONG MẢNG </h5>
+
+      <div class="input m-2">
+        <input id="input_1" type="number" placeholder="vị trí 1:" />
+      </div>
+        <div class="input m-2">
+          <input id="input_2" type="number" placeholder="vị trí 2: " />
+        </div>
+      <button
+        class="btn btn-primary mx-3 mt-3"
+        onclick="ex6()"
+        id="changeposition"
+        type="button"
+      >
+        Đổi vị trí
+      </button>
+      <div id="result6" class="info"></div>
+
       <h5 class="mx-3">BÀI 7. SẮP XẾP MẢNG TĂNG DẦN</h5>
       <button
         class="btn btn-primary mx-3 mt-3"
@@ -149,6 +167,7 @@
         So sánh
       </button>
       <div id="result9" class="info"></div>
+
     </div>
 
     <script src="./main.js"></script>

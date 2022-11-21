@@ -89,6 +89,18 @@ function ex5() {
   }
 }
 
+function ex6() {
+  var a= document.getElementById("input_1").value*1;
+  var b= document.getElementById("input_2").value*1;
+
+  var temp = numArray[a];
+  numArray[a] =numArray[b];
+  numArray [b] =temp; 
+  document.getElementById("result6").innerHTML = "Mảng mới: " + numArray;
+  document.getElementById("result6").className = "info";
+}
+
+
 function ex7() {
   var up = "";
   let upArr = [];
